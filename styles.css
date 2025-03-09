@@ -1,0 +1,92 @@
+body {
+    align-items: center;
+    /*display: block;*/
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    /*height: 100%;*/
+    margin: 0;
+    justify-content: center;
+    border-collapse: collapse;
+    padding: 0;
+    width: 100%;
+}
+
+
+h2 {
+    color: #333;
+    /*animation: typing 3s steps(80) infinite alternate-reverse;*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+    /*text-wrap: nowrap;*/
+    text-align: center;
+    /*width: 16ch;*/
+}
+
+/*@keyframes typing {
+    from {width: 0ch;}
+    }*/
+
+h3 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: inline;
+    width: 58%; /* Ajustez la largeur selon vos besoins */
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 10px; 
+}
+
+input[type="submit"] {
+    width: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    background-color: #4CAF50; 
+    color: #333;
+    cursor:  pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
